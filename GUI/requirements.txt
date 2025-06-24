@@ -1,0 +1,12 @@
+pyqt5~=5.15.11
+pyqtgraph~=0.13.7
+superqt~=0.7.1
+matplotlib~=3.9.4
+numpy~=2.0.2
+SciPy~=1.13.1
+pandas~=2.2.3
+
+pyserial~=3.5
+pathvalidate~=3.2.3
+deprecation~=2.1.0
+argparse~=1.4.0
