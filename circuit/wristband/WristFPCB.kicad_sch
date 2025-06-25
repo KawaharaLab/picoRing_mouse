@@ -1,0 +1,1792 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "980f0835-b081-4ca6-8818-f7925c2ac7aa")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 163.195 81.915) (xy 198.12 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1593dcb1-e1c7-457d-856f-13a4da0f5b8d")
+	)
+	(wire
+		(pts
+			(xy 80.645 74.295) (xy 91.44 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c73640b-fcfc-4611-b868-79e9d59d900b")
+	)
+	(wire
+		(pts
+			(xy 186.055 74.295) (xy 198.12 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7731bc-4411-4177-92c8-9717712dfdf7")
+	)
+	(wire
+		(pts
+			(xy 80.645 76.835) (xy 99.06 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23121ce4-1c3e-4869-bc06-c2cfee5ecd5e")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.835) (xy 170.815 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e10874-eb50-4999-998b-f507b5f147c0")
+	)
+	(wire
+		(pts
+			(xy 193.675 84.455) (xy 198.12 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54df5f68-255d-4541-a09d-c3d0a8ad747f")
+	)
+	(wire
+		(pts
+			(xy 178.435 76.835) (xy 198.12 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5889be80-8d2d-4aac-a90a-36b2f0960ef2")
+	)
+	(wire
+		(pts
+			(xy 91.44 84.455) (xy 186.055 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6554c7bc-7d57-493f-9873-21f2c9810511")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.915) (xy 155.575 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6987d2-72d1-4d5c-a27d-64228aee4236")
+	)
+	(wire
+		(pts
+			(xy 80.645 81.915) (xy 114.3 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91095a3a-9bf4-414a-a26c-692b3a56c5f7")
+	)
+	(wire
+		(pts
+			(xy 80.645 71.755) (xy 83.82 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a479d4cd-ceaa-44f6-894e-9739ffea4bbc")
+	)
+	(wire
+		(pts
+			(xy 80.645 79.375) (xy 106.68 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae759a4f-39d3-4c6f-8a81-0cf29f467297")
+	)
+	(wire
+		(pts
+			(xy 114.3 79.375) (xy 163.195 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fdfd62-95f8-45bb-bc8c-76999e0972b6")
+	)
+	(wire
+		(pts
+			(xy 170.815 79.375) (xy 198.12 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25d28a9-d4cd-4cf7-bf03-32df11a1a218")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.295) (xy 178.435 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3dc5d4-5489-4266-a19c-0d001f4b53d6")
+	)
+	(wire
+		(pts
+			(xy 193.675 71.755) (xy 198.12 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd886951-b918-48a5-a868-fd26d1df4f3f")
+	)
+	(wire
+		(pts
+			(xy 80.645 84.455) (xy 83.82 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59855de-6829-4a00-ad9a-3216c83cfeec")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.755) (xy 186.055 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadef0da-266b-4d09-b65a-ce07240c7175")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 71.755 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12b137e4-1a68-4de9-b4ae-8c8c0a823b22")
+		(property "Reference" "C1"
+			(at 87.63 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 87.63 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.44 70.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b851a24-55ea-45f1-af5e-bc01ae9cb62c")
+		)
+		(pin "1"
+			(uuid "7c693bb3-8cf1-46e5-94eb-bb56a53c2785")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 203.2 76.835 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ec4b6d4-2903-46de-8aba-3bd402e7b353")
+		(property "Reference" "J2"
+			(at 202.565 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 202.565 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical"
+			(at 203.2 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 203.2 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a0d49351-61b1-46d2-b32c-9f5dbf09f64c")
+		)
+		(pin "5"
+			(uuid "ff8a3052-3562-4154-8346-b951414ff54f")
+		)
+		(pin "2"
+			(uuid "4b8453ef-e490-40e4-9427-05b087bcbfc9")
+		)
+		(pin "1"
+			(uuid "3d2a89a7-58c4-4ddb-ab07-bc781f5b977e")
+		)
+		(pin "4"
+			(uuid "5f449a86-971f-4d0f-9c48-d940ae584e73")
+		)
+		(pin "3"
+			(uuid "8db4b373-476a-49e7-b700-e9e5b3fffcb3")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.865 71.755 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43957421-a246-459b-9c64-27f8aa9c2f98")
+		(property "Reference" "C2"
+			(at 189.865 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 189.865 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.675 70.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.865 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.865 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83a01e6f-c238-46f9-b05e-2e9fff181e38")
+		)
+		(pin "1"
+			(uuid "c69016ee-b60f-4f27-9a6d-d34ca01c8ffc")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 81.915 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "575b3074-763d-4e0b-8fbd-bf3fa64118d2")
+		(property "Reference" "C9"
+			(at 118.11 78.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 118.11 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 121.92 80.9498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dbd44d2-5d2f-479c-8421-b19ef25b7611")
+		)
+		(pin "1"
+			(uuid "f9f63480-fcfb-4f0b-a919-ee8e8652efa1")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.245 74.295 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a3f38c-d38f-4d45-9661-2c9257441469")
+		(property "Reference" "C4"
+			(at 182.245 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 182.245 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 186.055 73.3298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.245 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.245 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16db7cb8-b304-4ebe-8978-be3704e0f691")
+		)
+		(pin "1"
+			(uuid "9c0435e4-0194-4607-a570-3e16d9e2040d")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 74.295 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65c066e3-56cd-4181-b1d0-353300cd4640")
+		(property "Reference" "C3"
+			(at 95.25 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 95.25 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 99.06 73.3298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0756dad1-62be-4dae-9eba-85515fd50b13")
+		)
+		(pin "1"
+			(uuid "cf8373d5-0373-432f-bc83-86e8bbebc102")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 159.385 81.915 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68acbf48-7c18-4cef-b444-c9a0365095a8")
+		(property "Reference" "C10"
+			(at 159.385 78.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 159.385 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 163.195 80.9498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 159.385 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 159.385 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2950e854-92fb-4234-a683-bb7b473b79b2")
+		)
+		(pin "1"
+			(uuid "645f4c75-9131-40c1-8af8-290a559ee8fb")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 75.565 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75582d49-8339-446e-9a67-884a014420c6")
+		(property "Reference" "J1"
+			(at 76.2 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 76.2 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical"
+			(at 75.565 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 75.565 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 75.565 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1572a9fc-0cfb-4ec6-8141-7f8b0efde244")
+		)
+		(pin "5"
+			(uuid "e246974c-8052-4c09-9588-5288b2717b0a")
+		)
+		(pin "2"
+			(uuid "aa513e0f-f392-4a5f-9fa4-9b04ba21e09b")
+		)
+		(pin "1"
+			(uuid "2f17f0dc-39c2-4e56-a91c-9cb7ccadd742")
+		)
+		(pin "4"
+			(uuid "afbd416b-d1cd-4032-8444-21631d1ad15f")
+		)
+		(pin "3"
+			(uuid "26c7bce0-ce76-4ae9-b91b-20358f78c051")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 174.625 76.835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7efa7a3d-f80a-4105-bbca-c38938040b76")
+		(property "Reference" "C6"
+			(at 174.625 73.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 174.625 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 178.435 75.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 174.625 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 174.625 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c70b7ec-60b2-472f-bf1a-f43cc328287f")
+		)
+		(pin "1"
+			(uuid "4a6fa705-82e2-4a7a-af68-c2e8bda1a80d")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 76.835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94aedb2b-d890-4c57-a1b1-47581af1a932")
+		(property "Reference" "C5"
+			(at 102.87 73.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 102.87 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 75.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4231326f-cdf6-4a72-a42f-aba60685611e")
+		)
+		(pin "1"
+			(uuid "7fb2e2ea-2772-447f-8fc2-861e7f4c9fc0")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 79.375 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94e1434c-e803-4f9a-bfdb-c9a7bffc801e")
+		(property "Reference" "C7"
+			(at 110.49 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 110.49 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 114.3 78.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45db7518-46b9-4de2-96ba-b84b03539162")
+		)
+		(pin "1"
+			(uuid "d2daf70f-5aec-4fb2-ba5a-09b03c6f0ca2")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 84.455 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c94e6ebb-8829-4133-a5ed-b2752f79dabc")
+		(property "Reference" "C11"
+			(at 87.63 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 87.63 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.44 83.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "194598b8-efe3-46f1-8aee-46afb3a6d899")
+		)
+		(pin "1"
+			(uuid "213bfc76-3467-4ce9-8d87-f8547ccb1da1")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.005 79.375 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4fa7e8-7451-45c9-a965-fcdeb23d87b3")
+		(property "Reference" "C8"
+			(at 167.005 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 167.005 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 170.815 78.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.005 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.005 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3d06bab-9d23-40b1-976e-663fd20a8887")
+		)
+		(pin "1"
+			(uuid "aba49ca3-f88a-4ff9-94ab-985754eb93ef")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.865 84.455 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db7a0ed8-76bb-48d4-8d18-56713a4e118b")
+		(property "Reference" "C12"
+			(at 189.865 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 189.865 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.675 83.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.865 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.865 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3831cf8b-c264-4654-b042-58da9a38e4f1")
+		)
+		(pin "1"
+			(uuid "8a739155-a553-418d-9e0a-56ec4ec21fa9")
+		)
+		(instances
+			(project "PicoRing_wirstFPCB"
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/6f8be804-67cd-45e9-a9ee-e71086992fa9"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/75d2b5a1-67e5-43db-8f33-89c9173ee07f"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/816b9723-1368-45c8-a539-48e26fb1f109"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/66cbef21-d95a-46a1-9986-055f479adc78/d320f3c8-78fa-499a-a2b1-669e0adf6886"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
