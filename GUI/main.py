@@ -23,7 +23,11 @@ from game_board.snake_game import *
 # from viewer.map_viewer import *
 from util.qt_vna import *
 
-import qdarktheme
+try:
+    import qdarktheme
+except Exception:
+    qdarktheme = None
+    # qdarktheme is optional. If it's not installed, continue without it.
 
 
 class MainWindow(QMainWindow):
